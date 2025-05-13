@@ -38,13 +38,13 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 comments:
   provider: "giscus"
   giscus:
-    repo_id              : "R_kgDOOo-cSA"
-    category_name        : "Announcements"
-    category_id          : "DIC_kwDOOo-cSM4CqE19"
-    discussion_term      : "pathname"
-    reactions_enabled    : 1
-    theme                : "light"
-
+    repo_id: "R_kgDOOo-cSA"
+    category_name: "Announcements"
+    category_id: "DIC_kwDOOo-cSM4CqE19"
+    discussion_term: "pathname"
+    reactions_enabled: 1
+    theme: "light"
+    lang: "zh-CN"
 
 include:
   - _pages
