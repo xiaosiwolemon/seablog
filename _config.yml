@@ -22,8 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
-locale: zh-CN
 search: true
+locale: "zh-CN"
 
 # Build settings
 markdown: kramdown
@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "xiaosiwolemon"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "试一下子，兴许就成了呢"
+  bio    : "OK"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -72,9 +72,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
+    - label: "LINUX DO"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://linux.do/u/lingxian000/summary"
 
 footer:
   links:
