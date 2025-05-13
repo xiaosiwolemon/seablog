@@ -24,6 +24,7 @@ github_username: username
 minimal_mistakes_skin: contrast
 search: true
 locale: "zh-CN"
+repository: "xiaosiwolemon/seablog"
 
 # Build settings
 markdown: kramdown
@@ -33,6 +34,17 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOOo-cSA"
+    category_name        : "Announcements"
+    category_id          : "DIC_kwDOOo-cSM4CqE19"
+    discussion_term      : "pathname"
+    reactions_enabled    : 1
+    theme                : "light"
+
 
 include:
   - _pages
